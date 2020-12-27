@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  /* border: 1px solid red; */
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+.wrapper {
+  max-width: 1375px;
+  margin: auto;
+  border: 1px solid blue;
+}
+.grid-area {
+  display: grid;
+  grid-template-columns: 260px 1180px;;
+  grid-template-rows: 1361px;
+  grid-template-areas: "infopage body";
+}
+.infopage {
+  grid-area: infopage;
+  background: #43244D;
+  color: white;
+  padding: 20px;
+}
+.body {
+  grid-area: body;
+  /* padding: 20px 30px; */
+}
+.infopage-perfil {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.infopage-perfil h3 {
+  margin: 5px;
+}
+.infopage-perfil  p {
+  margin: 5px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.section.color {
+  color: rgb(211, 178, 178);
+  opacity: 1;
+}
+.header-body {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+  padding: 10px 30px;
+  /* border: 1px solid red; */
+}
+.typeError {
+  padding: 20px 30px 0;
+  /* border: 1px solid red; */
+  background: #FAF9FB;
+}
+.error {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.typeError.one{
+  color: #43244D;
+}
+.button {
+  background: #FCC6C8;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: #43244D;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  border: 1px solid #43244D;
+  border-radius: 5px;
+  padding: 0px 10px;
+  margin-top: 30px;
+}
+.buttons p {
+  margin: 0;
+}
+.down {
+  /* padding:5px 3px; */
+  border-left: 1px solid  #43244D;
+}
+.buttons img {
+  padding: 5px 2px 5px 5px;
+}
+.error.menu {
+  margin-top: 50px;
+}
+.error.menu p {
+  margin: 0 0 10px 0;
+}
+.info-error {
+  display: grid;
+  grid-template-rows:  1000px;
+  grid-template-columns: 800px 379px;
+  grid-template-areas: "section-error section-info";
+}
+.section-error {
+  grid-area: section-error;
+  border: 1px solid red;
+  padding: 20px 30px;
+}
+.section-info {
+  grid-area: section-info;
+  border: 1px solid red;
+  padding: 20px ;
+}
+.event strong {
+  color:#3D7DE8;
+  margin-left: 10px;
+}
+.botones {
+  display: flex;
+  gap: 10px;
+}

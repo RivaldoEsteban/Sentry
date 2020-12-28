@@ -312,6 +312,14 @@ body {
   padding: 0;
   width: 5px;
 }
+.environment-one {
+  border-radius: 0;
+  height: 30px;
+  background: #3A3387;
+  border: none;
+  padding: 0;
+  width: 300px;
+}
 .color-tags {
  color: #988BA4;
 }
